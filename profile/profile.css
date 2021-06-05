@@ -4,7 +4,7 @@
 .pl-1{
     padding-left: 8px;
 }
-.pd-2{
+.pb-2{
     padding-bottom: 16px;    
 }
 .pl-3{
@@ -19,6 +19,9 @@
 .pb-4{
     padding-bottom: 36px;
 }
+.pb-9{
+    padding-bottom: 72px;
+}
 .ml-1{
     margin-left: 8px;
 }
@@ -32,10 +35,16 @@
     margin-right: 24px;
 }
 .mt-3{
-   margin-top: 24px;
+    margin-top: 24px;
 }
 .mb-3{
     margin-bottom: 24px;
+}
+.ml-3{
+    margin-left: 24px;
+}
+.mb-4{
+    margin-bottom: 32px;
 }
 .mb-5{
     margin-bottom: 40px;
@@ -46,11 +55,14 @@
 .mb-6{
     margin-bottom: 48px;
 }
+.mb-7{
+    margin-bottom: 56px;
+}
 .mb-9{
     margin-bottom: 72px;
 }
 .container{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     font-size: 24px;
     line-height: 36px;
@@ -66,41 +78,38 @@
     border-bottom: 2px solid #000;
     padding-bottom: 8px;
 }
+.sub_title_white{
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    text-align: center;
+}
 .sub_title span{
-    color: #A00404;
     margin-left: 16px;
+    color: #A00404;
+}
+.sub_title_white span{
+    color: #FFFFFF;
 }
 .blue{
     background: #415165;
 }
-.siklls{
-    margin: 0 auto;
+.skills{
     width: 996px;
-    color: white;
 }
-.sub_title_white{
-    color: white;
-    text-align: center;
-    border-bottom: 2px solid white;
-}
-.sub_title_white span{
-    color:white;
-}
-.siklls_content{
+.skills_content{
     margin: 0 auto;
-    width: 188px;
     border-left: 2px solid #96A9C4;
-}
-.work_contents{
-    border-left: 2px solid #96A9C4;
-}
-.contact{
-    margin: 0 auto;
-    width: 996px;
     color: white;
+    width: 216px;
+    padding-left: 24px;
 }
-.contact_content{
-    width: 696px;
-    margin: 0 auto;
+.work_content{
+    border-left: 2px solid #96A9C4;
+    
+}
+.footer_content{
     text-align: center;
+    width: 507px;
+    margin: 0 auto;
+    color: white;
 }
