@@ -6,4 +6,8 @@
 .container{
     max-width: 1110px;
     margin: 0 auto;
+    @include mobile{ 
+        max-width: 345px;
+        margin: 0 auto;
+    }
 }

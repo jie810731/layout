@@ -1,3 +1,8 @@
+@mixin mobile{ 
+    @media(max-width:568px){ 
+        @content ;
+    } 
+}
 @mixin border-redis($color){ 
     border: 2px solid ($color);
     border-radius: 30px;
